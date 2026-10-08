@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ClipboardStack}",
+            "name": "Debug ClipboardStack",
+            "target": "ClipboardStack",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug ClipboardStack"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ClipboardStack}",
+            "name": "Release ClipboardStack",
+            "target": "ClipboardStack",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release ClipboardStack"
+        }
+    ]
+}

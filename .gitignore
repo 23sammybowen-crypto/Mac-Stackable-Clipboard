@@ -1,0 +1,20 @@
+# Swift Package Manager build products and local package workspace state.
+.build/
+.swiftpm/
+
+# macOS Finder metadata.
+.DS_Store
+
+# Xcode build output and per-user workspace state (if opened in Xcode).
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Compiled application and debug-symbol bundles created outside .build/.
+*.app/
+*.dSYM/
+
+# Editor backup and swap files.
+*.swp
+*.swo
+*~
